@@ -1,0 +1,68 @@
+/*ROCCO STYLE SHEET*/
+
+body {
+    background-color: whitesmoke;
+    margin: 0;
+     }
+
+# header {
+    list-style-type: none;
+    float: left;
+
+}
+ li {
+     display: inline;
+     padding: 5px;
+  }
+
+ .flex-container {
+    width: 960px;
+    height: 52px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Helvetica, sans-serif;
+
+ }
+
+
+ h4:hover{
+    color: white
+ }
+ 
+
+
+h1{
+    line-height: 1.1;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Lobster Two', cursive;
+      
+    }
+
+#table-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 55px;  
+}
+
+.footer {
+    background-color: burlywood;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 5px;
+}
+
+header, footer {
+    font-size: large;
+    text-align: center;
+    padding: 0.3em 0;
+    background-color: burlywood
+}
